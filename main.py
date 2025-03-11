@@ -7,6 +7,9 @@ class PermissionScript:
         self.ip = ip
         self.port = port
         self.text = text
+
+        # from adb_shell.auth.keygen import keygen
+        # keygen('path/to/adbkey')
         self.adbkey = adbkey
         
     def time_c(self):
@@ -28,7 +31,6 @@ class PermissionScript:
     def pm_diff(self):
         self.adb_connection()
 
-        #Generate adbkey before
         response = self.device.shell("pm list permissions")
         response_list = response.splitlines()
 
