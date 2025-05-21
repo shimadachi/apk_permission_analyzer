@@ -1,0 +1,37 @@
+APK: 4bf114ce1eb36ad5e430e7e78e49bf21e8386f71e56bdaac0630723f44358d47.apk
+Package: com.postt.asyncta
+Granted Permissions:
+android.permission.USE_CREDENTIALS: granted=true
+android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+android.permission.MANAGE_ACCOUNTS: granted=true
+android.permission.NFC: granted=true
+android.permission.CHANGE_NETWORK_STATE: granted=true
+android.permission.FOREGROUND_SERVICE: granted=true
+android.permission.WRITE_SYNC_SETTINGS: granted=true
+android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+com.postt.asyncta.permission.MAPS_RECEIVE: granted=true
+com.postt.asyncta.sticker.READ: granted=true
+com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+com.postt.asyncta.permission.BROADCAST: granted=true
+android.permission.READ_PROFILE: granted=true
+android.permission.BLUETOOTH: granted=true
+android.permission.GET_TASKS: granted=true
+android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+android.permission.USE_FULL_SCREEN_INTENT: granted=true
+android.permission.BROADCAST_STICKY: granted=true
+android.permission.CHANGE_WIFI_STATE: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+com.postt.asyncta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+android.permission.USE_FINGERPRINT: granted=true
+android.permission.READ_SYNC_STATS: granted=true
+android.permission.MANAGE_OWN_CALLS: granted=true
+android.permission.SCHEDULE_EXACT_ALARM: granted=true
+android.permission.READ_SYNC_SETTINGS: granted=true
+android.permission.VIBRATE: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+android.permission.USE_BIOMETRIC: granted=true
+com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+android.permission.WAKE_LOCK: granted=true
+com.postt.asyncta.permission.REGISTRATION: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]

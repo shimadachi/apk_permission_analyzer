@@ -1,0 +1,13 @@
+APK: 171f43dccd601863778adbe7aad993ba9dfaf0780dc11f1e73bf5cf1c31c1869.apk
+Package: unwviaspia.com
+Granted Permissions:
+android.permission.CHANGE_NETWORK_STATE: granted=true
+android.permission.GET_TASKS: granted=true
+android.permission.WRITE_SMS: granted=true
+android.permission.FLASHLIGHT: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+android.permission.VIBRATE: granted=true
+getui.permission.GetuiService.unwviaspia.com: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]

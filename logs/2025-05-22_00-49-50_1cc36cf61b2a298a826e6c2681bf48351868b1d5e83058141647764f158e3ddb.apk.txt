@@ -1,0 +1,22 @@
+APK: 1cc36cf61b2a298a826e6c2681bf48351868b1d5e83058141647764f158e3ddb.apk
+Package: hfkh8ia.com
+Granted Permissions:
+android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+android.permission.CHANGE_NETWORK_STATE: granted=true
+android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+android.permission.BLUETOOTH: granted=true
+android.permission.GET_TASKS: granted=true
+android.permission.BLUETOOTH_ADMIN: granted=true
+android.permission.WRITE_SMS: granted=true
+android.permission.CHANGE_WIFI_STATE: granted=true
+android.permission.FLASHLIGHT: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+android.permission.USE_FINGERPRINT: granted=true
+android.permission.VIBRATE: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+com.google.android.gms.permission.AD_ID: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]

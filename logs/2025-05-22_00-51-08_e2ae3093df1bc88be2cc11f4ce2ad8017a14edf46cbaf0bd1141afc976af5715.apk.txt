@@ -1,0 +1,5 @@
+APK: e2ae3093df1bc88be2cc11f4ce2ad8017a14edf46cbaf0bd1141afc976af5715.apk
+Package: com.appd.instll.load
+Granted Permissions:
+android.permission.REQUEST_DELETE_PACKAGES: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
