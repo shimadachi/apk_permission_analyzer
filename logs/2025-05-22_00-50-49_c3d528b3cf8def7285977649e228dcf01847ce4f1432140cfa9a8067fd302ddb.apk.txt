@@ -1,0 +1,19 @@
+APK: c3d528b3cf8def7285977649e228dcf01847ce4f1432140cfa9a8067fd302ddb.apk
+Package: com.zam.tquroa
+Granted Permissions:
+android.permission.FOREGROUND_SERVICE: granted=true
+android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+android.permission.REORDER_TASKS: granted=true
+android.permission.USE_FULL_SCREEN_INTENT: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+android.permission.DISABLE_KEYGUARD: granted=true
+android.permission.SCHEDULE_EXACT_ALARM: granted=true
+android.permission.REQUEST_DELETE_PACKAGES: granted=true
+com.zam.tquroa.matrix.permission.PROCESS_SUPERVISOR: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+android.permission.QUERY_ALL_PACKAGES: granted=true
+com.zam.tquroa.backtrace.warmed_up: granted=true
+android.permission.WAKE_LOCK: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]

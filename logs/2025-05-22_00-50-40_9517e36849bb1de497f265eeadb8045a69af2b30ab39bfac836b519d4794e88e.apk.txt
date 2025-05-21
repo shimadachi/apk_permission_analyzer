@@ -1,0 +1,18 @@
+APK: 9517e36849bb1de497f265eeadb8045a69af2b30ab39bfac836b519d4794e88e.apk
+Package: com.gefeaghadjd.J
+Granted Permissions:
+android.permission.CHANGE_NETWORK_STATE: granted=true
+com.gefeaghadjd.J.openadsdk.permission.TT_PANGOLIN: granted=true
+android.permission.TRANSMIT_IR: granted=true
+android.permission.REORDER_TASKS: granted=true
+android.permission.CHANGE_WIFI_STATE: granted=true
+android.permission.FLASHLIGHT: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+android.permission.VIBRATE: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+android.permission.QUERY_ALL_PACKAGES: granted=true
+com.google.android.gms.permission.AD_ID: granted=true
+android.permission.WAKE_LOCK: granted=true
+com.gefeaghadjd.J.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
