@@ -121,3 +121,4 @@ if __name__ == "__main__":
         snapshot_name="safe_snapshot",
     )
     analyzer.analyze_apks()
+
