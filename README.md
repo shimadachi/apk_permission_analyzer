@@ -58,7 +58,7 @@ Log dosyası örneği:
 ```
 APK: virus_sample.apk
 Package: com.malware.sample
-paketin <dumpsys çıktısı burada yer alır>
+<paketin dumpsys çıktısı burada yer alır>
 ```
 
 ## ⚠️ Uyarılar
