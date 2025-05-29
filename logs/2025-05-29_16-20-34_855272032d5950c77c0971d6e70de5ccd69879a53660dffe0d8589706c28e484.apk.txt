@@ -1,0 +1,144 @@
+APK: 855272032d5950c77c0971d6e70de5ccd69879a53660dffe0d8589706c28e484.apk
+Package: com.amazonnn.apppsfinnn
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        fff178c com.amazonnn.apppsfinnn/.activities.SplashActivity filter b11ded5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.provider.Telephony.SMS_RECEIVED:
+        63ef6ea com.amazonnn.apppsfinnn/.utils.soluesclues filter b069ddb
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.amazonnn.apppsfinnn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (9133541):
+    sourcePackage=com.amazonnn.apppsfinnn
+    uid=10257 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c0de337 com.amazonnn.apppsfinnn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.amazonnn.apppsfinnn/androidx.startup.InitializationProvider:
+    Provider{aeb0a4 com.amazonnn.apppsfinnn/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.amazonnn.apppsfinnn.androidx-startup]:
+    Provider{aeb0a4 com.amazonnn.apppsfinnn/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{8adaae6 com.amazonnn.apppsfinnn}
+
+Key Set Manager:
+  [com.amazonnn.apppsfinnn]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.amazonnn.apppsfinnn] (c537bd3):
+    userId=10257
+    pkg=Package{7783310 com.amazonnn.apppsfinnn}
+    codePath=/data/app/~~DAGpxvC3rwqjwW0tighBGg==/com.amazonnn.apppsfinnn-KEXI-85UIjWjzndTeLLgAg==
+    resourcePath=/data/app/~~DAGpxvC3rwqjwW0tighBGg==/com.amazonnn.apppsfinnn-KEXI-85UIjWjzndTeLLgAg==
+    legacyNativeLibraryDir=/data/app/~~DAGpxvC3rwqjwW0tighBGg==/com.amazonnn.apppsfinnn-KEXI-85UIjWjzndTeLLgAg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=21 targetSdk=33
+    minExtensionVersions=[]
+    versionName=1.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{7783310 com.amazonnn.apppsfinnn}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.amazonnn.apppsfinnn
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-21 20:20:04
+    firstInstallTime=2025-05-21 20:20:04
+    lastUpdateTime=2025-05-21 20:20:04
+    signatures=PackageSignatures{c1cce09 version:3, signatures:[d7f1f224], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.amazonnn.apppsfinnn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.RECEIVE_SMS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.amazonnn.apppsfinnn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.OTHER_SENSORS
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.amazonnn.apppsfinnn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=909718 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-pjzc.frro
+        /data/resource-cache/com.android.systemui-accent-5NSo.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.OTHER_SENSORS: granted=true
+        android.permission.RECEIVE_SMS: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.INTERNET: granted=true
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.settings.intelligence:
+      com.amazonnn.apppsfinnn
+    org.eu.droid_ng.jellyfish:
+      com.amazonnn.apppsfinnn
+    xtr.keymapper:
+      com.amazonnn.apppsfinnn
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=25
+  User 0:
+    seq=23, package=com.android.settings
+    seq=24, package=com.amazonnn.apppsfinnn
+
+
+Dexopt state:
+  [com.amazonnn.apppsfinnn]
+    path: /data/app/~~DAGpxvC3rwqjwW0tighBGg==/com.amazonnn.apppsfinnn-KEXI-85UIjWjzndTeLLgAg==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.amazonnn.apppsfinnn]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 6220  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:29         now           9        7062           0           0           3           3           1
+          1:29        0:29          19       29200           0           0           2           7           4
+          2:29        1:29         139       72268           0           1          49          40          10
+          2:29         now         167      108530           0           1          54          51          10
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:29         now           9           0           0           0           0           0           0           0
+          1:29        0:29          18           0           1           0           0           0           0           0
+          2:29        1:29         137           0           1           1           0           0           0           0
+          2:29         now         164           0           2           1           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:29         now           2           1           0           0           0           1           1           4
+          1:29        0:29           2           0           0           0           0           1           4          12
+          2:29        1:29          29          10           9           7           7          18          14          44
+          2:29         now          33          11           9           7           7          20          19          60

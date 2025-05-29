@@ -1,0 +1,311 @@
+APK: 2b332adf4e52168cbd2e76866165a5c6f421d15b5778d44f78f0d86c4c26b9fa.apk
+Package: p31e2586d.p0e6e1473.pca88ca83
+Activity Resolver Table:
+  Schemes:
+      mms:
+        aa3e78e p31e2586d.p0e6e1473.pca88ca83/.pe3f1ee8f filter e2b0baf
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      sms:
+        aa3e78e p31e2586d.p0e6e1473.pca88ca83/.pe3f1ee8f filter e2b0baf
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      mmsto:
+        aa3e78e p31e2586d.p0e6e1473.pca88ca83/.pe3f1ee8f filter e2b0baf
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      smsto:
+        aa3e78e p31e2586d.p0e6e1473.pca88ca83/.pe3f1ee8f filter e2b0baf
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        63ef6ea p31e2586d.p0e6e1473.pca88ca83/.peb8326e9 filter b069ddb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        84c2078 p31e2586d.p0e6e1473.pca88ca83/.pb6fe4b38 filter f1e9351
+          Action: "android.intent.action.MAIN"
+        28d97b6 p31e2586d.p0e6e1473.pca88ca83/.pe5d6af1a filter 7473cb7
+          Action: "android.intent.action.MAIN"
+        a5ecc24 p31e2586d.p0e6e1473.pca88ca83/.p1c831545 filter 468138d
+          Action: "android.intent.action.MAIN"
+        2537942 p31e2586d.p0e6e1473.pca88ca83/.p6cb6535c filter 788ed53
+          Action: "android.intent.action.MAIN"
+        ece8690 p31e2586d.p0e6e1473.pca88ca83/.peb24d4a3 filter e4f5b89
+          Action: "android.intent.action.MAIN"
+
+Receiver Resolver Table:
+  Full MIME Types:
+      application/vnd.wap.mms-message:
+        74497a8 p31e2586d.p0e6e1473.pca88ca83/.p63347e9b filter 259f2c1
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          StaticType: "application/vnd.wap.mms-message"
+
+  Base MIME Types:
+      application:
+        74497a8 p31e2586d.p0e6e1473.pca88ca83/.p63347e9b filter 259f2c1
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          StaticType: "application/vnd.wap.mms-message"
+
+  Non-Data Actions:
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        e3d7bbc p31e2586d.p0e6e1473.pca88ca83/.p09d723b4 filter b492745
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+      android.provider.Telephony.SMS_DELIVER:
+        c7aee9a p31e2586d.p0e6e1473.pca88ca83/.p594fb0b0 filter a26b3cb
+          Action: "android.provider.Telephony.SMS_DELIVER"
+          mPriority=2147483647, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+  MIME Typed Actions:
+      android.provider.Telephony.WAP_PUSH_DELIVER:
+        74497a8 p31e2586d.p0e6e1473.pca88ca83/.p63347e9b filter 259f2c1
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          StaticType: "application/vnd.wap.mms-message"
+
+Service Resolver Table:
+  Schemes:
+      mms:
+        a895a66 p31e2586d.p0e6e1473.pca88ca83/.p4245a391 filter 6eac1a7 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      sms:
+        a895a66 p31e2586d.p0e6e1473.pca88ca83/.p4245a391 filter 6eac1a7 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      mmsto:
+        a895a66 p31e2586d.p0e6e1473.pca88ca83/.p4245a391 filter 6eac1a7 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      smsto:
+        a895a66 p31e2586d.p0e6e1473.pca88ca83/.p4245a391 filter 6eac1a7 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+
+  Non-Data Actions:
+      android.accessibilityservice.AccessibilityService:
+        71f8654 p31e2586d.p0e6e1473.pca88ca83/.pdc90e637 filter c51f9fd permission android.permission.BIND_ACCESSIBILITY_SERVICE
+          Action: "android.accessibilityservice.AccessibilityService"
+          mPriority=2147483647, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  p31e2586d.p0e6e1473.pca88ca83/p269c122a.p2c63f308.p6379c05c.p0531758b:
+    Provider{e7f84cc p31e2586d.p0e6e1473.pca88ca83/p269c122a.p2c63f308.p6379c05c.p0531758b}
+  p31e2586d.p0e6e1473.pca88ca83/p269c122a.p4e43307e.pd54b46a2:
+    Provider{889e315 p31e2586d.p0e6e1473.pca88ca83/p269c122a.p4e43307e.pd54b46a2}
+
+ContentProvider Authorities:
+  [p31e2586d.p0e6e1473.pca88ca83.pbad761f5ndroidx-startup]:
+    Provider{889e315 p31e2586d.p0e6e1473.pca88ca83/p269c122a.p4e43307e.pd54b46a2}
+      applicationInfo=ApplicationInfo{c60cc56 p31e2586d.p0e6e1473.pca88ca83}
+  [p31e2586d.p0e6e1473.pca88ca83.provider]:
+    Provider{e7f84cc p31e2586d.p0e6e1473.pca88ca83/p269c122a.p2c63f308.p6379c05c.p0531758b}
+      applicationInfo=ApplicationInfo{3fd64d7 p31e2586d.p0e6e1473.pca88ca83}
+
+Key Set Manager:
+  [p31e2586d.p0e6e1473.pca88ca83]
+      Signing KeySets: 31
+
+Packages:
+  Package [p31e2586d.p0e6e1473.pca88ca83] (b11ded5):
+    userId=10257
+    sharedUser=SharedUserSetting{48621b8 WDgAOPWfoHzBGLRj.uid.shared/10257}
+    pkg=Package{7b29b91 p31e2586d.p0e6e1473.pca88ca83}
+    codePath=/data/app/~~nCn2bThO34qmePnW2fRr7g==/p31e2586d.p0e6e1473.pca88ca83-_ZI9Lj6jx3bCOTIHk7gcyg==
+    resourcePath=/data/app/~~nCn2bThO34qmePnW2fRr7g==/p31e2586d.p0e6e1473.pca88ca83-_ZI9Lj6jx3bCOTIHk7gcyg==
+    legacyNativeLibraryDir=/data/app/~~nCn2bThO34qmePnW2fRr7g==/p31e2586d.p0e6e1473.pca88ca83-_ZI9Lj6jx3bCOTIHk7gcyg==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=5 minSdk=28 targetSdk=33
+    minExtensionVersions=[]
+    versionName=2.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{7b29b91 p31e2586d.p0e6e1473.pca88ca83}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/p31e2586d.p0e6e1473.pca88ca83
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-21 20:20:04
+    firstInstallTime=2025-05-21 20:20:04
+    lastUpdateTime=2025-05-21 20:20:04
+    signatures=PackageSignatures{1751ef7 version:3, signatures:[a9190b44], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_SMS
+      android.permission.SEND_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.RECEIVE_MMS
+      android.provider.Telephony.SMS_RECEIVED
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_PHONE_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.WRITE_SETTINGS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.MEDIA_PROJECTION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.BROADCAST_STICKY
+      android.permission.DISABLE_KEYGUARD
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.OTHER_SENSORS
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=false
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=909715 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-pjzc.frro
+        /data/resource-cache/com.android.systemui-accent-5NSo.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.settings.intelligence:
+      p31e2586d.p0e6e1473.pca88ca83
+    com.android.contacts:
+      p31e2586d.p0e6e1473.pca88ca83
+    org.eu.droid_ng.jellyfish:
+      p31e2586d.p0e6e1473.pca88ca83
+    xtr.keymapper:
+      p31e2586d.p0e6e1473.pca88ca83
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [WDgAOPWfoHzBGLRj.uid.shared] (48621b8):
+    userId=10257
+    Packages
+      PackageSetting{b11ded5 p31e2586d.p0e6e1473.pca88ca83/10257}
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=false
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECEIVE_MMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.SEND_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Package Changes:
+  Sequence number=25
+  User 0:
+    seq=23, package=com.android.settings
+    seq=24, package=p31e2586d.p0e6e1473.pca88ca83
+
+
+Dexopt state:
+  [p31e2586d.p0e6e1473.pca88ca83]
+    path: /data/app/~~nCn2bThO34qmePnW2fRr7g==/p31e2586d.p0e6e1473.pca88ca83-_ZI9Lj6jx3bCOTIHk7gcyg==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [p31e2586d.p0e6e1473.pca88ca83]
+     base.apk - 577
+Snapshot statistics
+   Unrecorded-hits: 915  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:30         now          18        9742           0           0           8           3           1
+          1:30        0:30          19       29200           0           0           2           7           4
+          2:30        1:30         139       72268           0           1          49          40          10
+          2:30         now         176      111210           0           1          59          51          10
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:30         now          18           0           0           0           0           0           0           0
+          1:30        0:30          18           0           1           0           0           0           0           0
+          2:30        1:30         137           0           1           1           0           0           0           0
+          2:30         now         173           0           2           1           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:30         now           7           1           0           2           0           2           1           5
+          1:30        0:30           2           0           0           0           0           1           4          12
+          2:30        1:30          29          10           9           7           7          18          14          44
+          2:30         now          38          11           9           9           7          21          19          61

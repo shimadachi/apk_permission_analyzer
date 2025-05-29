@@ -1,0 +1,144 @@
+APK: 58380f0d29fd512ce93a9dbd49c0ced812cdb7d124733a0bd43558954f400853.apk
+Package: com.avnnmninstaabooks.avn
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        fff178c com.avnnmninstaabooks.avn/com.avnnmninstaabooks.avnnmnzozoooappsgaming.activities.SplashActivity filter b11ded5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.provider.Telephony.SMS_RECEIVED:
+        63ef6ea com.avnnmninstaabooks.avn/com.avnnmninstaabooks.avnnmnzozoooappsgaming.utils.soluesclues filter b069ddb
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.avnnmninstaabooks.avn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (9133541):
+    sourcePackage=com.avnnmninstaabooks.avn
+    uid=10257 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c0de337 com.avnnmninstaabooks.avn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.avnnmninstaabooks.avn/androidx.startup.InitializationProvider:
+    Provider{aeb0a4 com.avnnmninstaabooks.avn/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.avnnmninstaabooks.avn.androidx-startup]:
+    Provider{aeb0a4 com.avnnmninstaabooks.avn/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{8adaae6 com.avnnmninstaabooks.avn}
+
+Key Set Manager:
+  [com.avnnmninstaabooks.avn]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.avnnmninstaabooks.avn] (18d31c2):
+    userId=10257
+    pkg=Package{c537bd3 com.avnnmninstaabooks.avn}
+    codePath=/data/app/~~SspylZmJAk3tOvVE5k2cUQ==/com.avnnmninstaabooks.avn-mMcvuleh5dZxBXMiSR49eA==
+    resourcePath=/data/app/~~SspylZmJAk3tOvVE5k2cUQ==/com.avnnmninstaabooks.avn-mMcvuleh5dZxBXMiSR49eA==
+    legacyNativeLibraryDir=/data/app/~~SspylZmJAk3tOvVE5k2cUQ==/com.avnnmninstaabooks.avn-mMcvuleh5dZxBXMiSR49eA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=21 targetSdk=33
+    minExtensionVersions=[]
+    versionName=1.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{c537bd3 com.avnnmninstaabooks.avn}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.avnnmninstaabooks.avn
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2025-05-21 20:20:04
+    firstInstallTime=2025-05-21 20:20:04
+    lastUpdateTime=2025-05-21 20:20:04
+    signatures=PackageSignatures{7783310 version:3, signatures:[d7f1f224], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.avnnmninstaabooks.avn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.RECEIVE_SMS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.avnnmninstaabooks.avn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.OTHER_SENSORS
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.avnnmninstaabooks.avn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=909718 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-pjzc.frro
+        /data/resource-cache/com.android.systemui-accent-5NSo.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.OTHER_SENSORS: granted=true
+        android.permission.RECEIVE_SMS: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.INTERNET: granted=true
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.settings.intelligence:
+      com.avnnmninstaabooks.avn
+    org.eu.droid_ng.jellyfish:
+      com.avnnmninstaabooks.avn
+    xtr.keymapper:
+      com.avnnmninstaabooks.avn
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=25
+  User 0:
+    seq=23, package=com.android.settings
+    seq=24, package=com.avnnmninstaabooks.avn
+
+
+Dexopt state:
+  [com.avnnmninstaabooks.avn]
+    path: /data/app/~~SspylZmJAk3tOvVE5k2cUQ==/com.avnnmninstaabooks.avn-mMcvuleh5dZxBXMiSR49eA==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.avnnmninstaabooks.avn]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 6081  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:29         now           9       12569           0           0           2           2           1
+          1:29        0:29          19       29200           0           0           2           7           4
+          2:29        1:29         139       72268           0           1          49          40          10
+          2:29         now         167      114037           0           1          53          49          10
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:29         now           9           0           0           0           0           0           0           0
+          1:29        0:29          18           0           1           0           0           0           0           0
+          2:29        1:29         137           0           1           1           0           0           0           0
+          2:29         now         164           0           2           1           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:29         now           2           0           0           0           1           1           1           4
+          1:29        0:29           2           0           0           0           0           1           4          12
+          2:29        1:29          29          10           9           7           7          18          14          44
+          2:29         now          33          10           9           7           8          20          19          60

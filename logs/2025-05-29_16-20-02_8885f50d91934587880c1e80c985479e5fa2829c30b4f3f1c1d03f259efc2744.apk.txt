@@ -1,0 +1,303 @@
+APK: 8885f50d91934587880c1e80c985479e5fa2829c30b4f3f1c1d03f259efc2744.apk
+Package: com.sound.recordingzy
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        63ef6ea com.sound.recordingzy/com.zy.fyappcoll7.ui.activity.StartActivity filter b069ddb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        84c2078 com.sound.recordingzy/androidx.profileinstaller.ProfileInstallReceiver filter 7473cb7
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        84c2078 com.sound.recordingzy/androidx.profileinstaller.ProfileInstallReceiver filter f1e9351
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        84c2078 com.sound.recordingzy/androidx.profileinstaller.ProfileInstallReceiver filter 28d97b6
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        84c2078 com.sound.recordingzy/androidx.profileinstaller.ProfileInstallReceiver filter a5ecc24
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.sound.recordingzy.messenger:
+        468138d com.sound.recordingzy/com.blankj.utilcode.util.MessengerUtils$ServerService filter 2537942
+          Action: "com.sound.recordingzy.messenger"
+      com.ss.android.socialbase.downloader.remote:
+        788ed53 com.sound.recordingzy/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService filter ece8690
+          Action: "com.ss.android.socialbase.downloader.remote"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.sound.recordingzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (6f45c9f):
+    sourcePackage=com.sound.recordingzy
+    uid=10257 gids=[] type=0 prot=signature
+    perm=PermissionInfo{50cfa59 com.sound.recordingzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Permissions:
+  Permission [com.sound.recordingzy.openadsdk.permission.TT_PANGOLIN] (c3e11ec):
+    sourcePackage=com.sound.recordingzy
+    uid=10257 gids=[] type=0 prot=signature
+    perm=PermissionInfo{31a4eff com.sound.recordingzy.openadsdk.permission.TT_PANGOLIN}
+
+Registered ContentProviders:
+  com.sound.recordingzy/com.byted.live.lite.ServerManager_bytelive:
+    Provider{e7f84cc com.sound.recordingzy/com.byted.live.lite.ServerManager_bytelive}
+  com.sound.recordingzy/com.qq.e.comm.GDTFileProvider:
+    Provider{889e315 com.sound.recordingzy/com.qq.e.comm.GDTFileProvider}
+  com.sound.recordingzy/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider:
+    Provider{d24462a com.sound.recordingzy/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+  com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager:
+    Provider{44edc1b com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+  com.sound.recordingzy/androidx.startup.InitializationProvider:
+    Provider{48621b8 com.sound.recordingzy/androidx.startup.InitializationProvider}
+  com.sound.recordingzy/com.byted.live.lite.ServerManager_push:
+    Provider{7b29b91 com.sound.recordingzy/com.byted.live.lite.ServerManager_push}
+  com.sound.recordingzy/razerdp.basepopup.BasePopupInitializer:
+    Provider{5989af6 com.sound.recordingzy/razerdp.basepopup.BasePopupInitializer}
+  com.sound.recordingzy/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{1751ef7 com.sound.recordingzy/com.blankj.utilcode.util.UtilsFileProvider}
+  com.sound.recordingzy/com.luck.picture.lib.basic.PictureFileProvider:
+    Provider{857a164 com.sound.recordingzy/com.luck.picture.lib.basic.PictureFileProvider}
+  com.sound.recordingzy/com.bytedance.pangle.FileProvider:
+    Provider{7d45fcd com.sound.recordingzy/com.bytedance.pangle.FileProvider}
+  com.sound.recordingzy/com.bytedance.pangle.provider.MainProcessProviderProxy:
+    Provider{2b7082 com.sound.recordingzy/com.bytedance.pangle.provider.MainProcessProviderProxy}
+  com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.MainServerManager:
+    Provider{552b393 com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+  com.sound.recordingzy/com.bytedance.android.openliveplugin.process.server.LiveServerManager:
+    Provider{d9f6fd0 com.sound.recordingzy/com.bytedance.android.openliveplugin.process.server.LiveServerManager}
+  com.sound.recordingzy/com.bytedance.sdk.openadsdk.TTFileProvider:
+    Provider{bd42bc9 com.sound.recordingzy/com.bytedance.sdk.openadsdk.TTFileProvider}
+
+ContentProvider Authorities:
+  [com.sound.recordingzy.TTMultiProvider]:
+    Provider{d24462a com.sound.recordingzy/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+      applicationInfo=ApplicationInfo{86bb9b5 com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.servermanager.bytelive.com.byted.live.lite]:
+    Provider{e7f84cc com.sound.recordingzy/com.byted.live.lite.ServerManager_bytelive}
+      applicationInfo=ApplicationInfo{f71684a com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.provider.proxy.main]:
+    Provider{2b7082 com.sound.recordingzy/com.bytedance.pangle.provider.MainProcessProviderProxy}
+      applicationInfo=ApplicationInfo{44c23bb com.sound.recordingzy}
+  [com.sound.recordingzy.luckProvider]:
+    Provider{857a164 com.sound.recordingzy/com.luck.picture.lib.basic.PictureFileProvider}
+      applicationInfo=ApplicationInfo{4f060d8 com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.fileprovider]:
+    Provider{7d45fcd com.sound.recordingzy/com.bytedance.pangle.FileProvider}
+      applicationInfo=ApplicationInfo{6eb3c31 com.sound.recordingzy}
+  [com.sound.recordingzy.TTFileProvider]:
+    Provider{bd42bc9 com.sound.recordingzy/com.bytedance.sdk.openadsdk.TTFileProvider}
+      applicationInfo=ApplicationInfo{d65bf16 com.sound.recordingzy}
+  [com.sound.recordingzy.gdt.fileprovider]:
+    Provider{889e315 com.sound.recordingzy/com.qq.e.comm.GDTFileProvider}
+      applicationInfo=ApplicationInfo{58f4097 com.sound.recordingzy}
+  [com.sound.recordingzy.utilcode.fileprovider]:
+    Provider{1751ef7 com.sound.recordingzy/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{f76b284 com.sound.recordingzy}
+  [com.sound.recordingzy.bytedance.android.openliveplugin.process.server.LiveServerManager]:
+    Provider{d9f6fd0 com.sound.recordingzy/com.bytedance.android.openliveplugin.process.server.LiveServerManager}
+      applicationInfo=ApplicationInfo{6066a6d com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.servermanager.main]:
+    Provider{552b393 com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+      applicationInfo=ApplicationInfo{276b6a2 com.sound.recordingzy}
+  [com.sound.recordingzy.androidx-startup]:
+    Provider{48621b8 com.sound.recordingzy/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{b7d4f33 com.sound.recordingzy}
+  [com.github.razerdp.com.sound.recordingzy.BasePopupInitializer]:
+    Provider{5989af6 com.sound.recordingzy/razerdp.basepopup.BasePopupInitializer}
+      applicationInfo=ApplicationInfo{6ee72f0 com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.servermanager.push.com.byted.live.lite]:
+    Provider{7b29b91 com.sound.recordingzy/com.byted.live.lite.ServerManager_push}
+      applicationInfo=ApplicationInfo{2c4069 com.sound.recordingzy}
+  [com.sound.recordingzy.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost]:
+    Provider{44edc1b com.sound.recordingzy/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+      applicationInfo=ApplicationInfo{8ad9aee com.sound.recordingzy}
+
+Key Set Manager:
+  [com.sound.recordingzy]
+      Signing KeySets: 31
+
+Packages:
+  Package [com.sound.recordingzy] (b966d00):
+    userId=10257
+    pkg=Package{2429939 com.sound.recordingzy}
+    codePath=/data/app/~~C0TjD-C5rBqYdAA6pna1wA==/com.sound.recordingzy-fu8OW8qYb5b_xiBK6UtnLA==
+    resourcePath=/data/app/~~C0TjD-C5rBqYdAA6pna1wA==/com.sound.recordingzy-fu8OW8qYb5b_xiBK6UtnLA==
+    legacyNativeLibraryDir=/data/app/~~C0TjD-C5rBqYdAA6pna1wA==/com.sound.recordingzy-fu8OW8qYb5b_xiBK6UtnLA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=5 minSdk=24 targetSdk=33
+    minExtensionVersions=[]
+    versionName=1.4
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{2429939 com.sound.recordingzy}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.MAIN }, Intent { act=android.intent.action.VIEW }, Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }]
+    dataDir=/data/user/0/com.sound.recordingzy
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-05-21 20:20:04
+    firstInstallTime=2025-05-21 20:20:04
+    lastUpdateTime=2025-05-21 20:20:04
+    signatures=PackageSignatures{c20cb7e version:2, signatures:[d1f65913], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    declared permissions:
+      com.sound.recordingzy.openadsdk.permission.TT_PANGOLIN: prot=signature, INSTALLED
+      com.sound.recordingzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      com.sound.recordingzy.openadsdk.permission.TT_PANGOLIN
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.RECORD_AUDIO
+      com.sound.recordingzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.google.android.gms.permission.AD_ID
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REORDER_TASKS
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.OTHER_SENSORS
+    install permissions:
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=false
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.sound.recordingzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.VIBRATE: granted=true
+      com.sound.recordingzy.openadsdk.permission.TT_PANGOLIN: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=909747 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-pjzc.frro
+        /data/resource-cache/com.android.systemui-accent-5NSo.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /system/product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.INTERNET: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.google.android.settings.intelligence:
+      com.sound.recordingzy
+    org.eu.droid_ng.jellyfish:
+      com.sound.recordingzy
+    xtr.keymapper:
+      com.sound.recordingzy
+    com.sound.recordingzy:
+      com.android.cts.priv.ctsshim
+      org.blissroms.aboutbliss
+      com.reecedunn.espeak
+      com.android.talkback
+      player.phonograph.plus
+      at.bitfire.davdroid
+      com.googlecode.eyesfree.setorientation
+      de.marmaro.krt.ffupdater
+      eu.faircode.email
+      org.fitchfamily.android.gsmlocation
+      com.aurora.store
+      com.android.cts.ctsshim
+      com.machiav3lli.fdroid
+      com.google.android.settings.intelligence
+      com.android.contacts
+      com.android.dialer
+      com.android.deskclock
+      com.android.messaging
+      org.lineageos.etar
+      com.android.calculator2
+      com.android.gallery3d
+      com.android.camera2
+      yetzio.yetcalc
+      com.android.inputmethod.latin
+      cu.axel.smartdock
+      com.android.launcher3
+      com.farmerbb.taskbar.support
+      com.farmerbb.taskbar
+      com.android.wallpaper
+      com.android.cellbroadcastreceiver.module
+      com.amaze.filemanager
+      com.termux
+      me.weishu.kernelsu
+      net.sourceforge.opencamera
+      xtr.keymapper
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=25
+  User 0:
+    seq=23, package=com.android.settings
+    seq=24, package=com.sound.recordingzy
+
+
+Dexopt state:
+  [com.sound.recordingzy]
+    path: /data/app/~~C0TjD-C5rBqYdAA6pna1wA==/com.sound.recordingzy-fu8OW8qYb5b_xiBK6UtnLA==/base.apk
+      x86_64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.sound.recordingzy]
+     base.apk - 304
+Snapshot statistics
+   Unrecorded-hits: 5500  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:30         now          10       19477           0           0           4           1           0
+          1:30        0:30          19       29200           0           0           2           7           4
+          2:30        1:30         139       72268           0           1          49          40          10
+          2:30         now         168      120945           0           1          55          49          10
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:30         now          10           0           0           0           0           0           0           0
+          1:30        0:30          18           0           1           0           0           0           0           0
+          2:30        1:30         137           0           1           1           0           0           0           0
+          2:30         now         165           0           2           1           0           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:30         now           3           1           0           0           0           1           1           4
+          1:30        0:30           2           0           0           0           0           1           4          12
+          2:30        1:30          29          10           9           7           7          18          14          44
+          2:30         now          34          11           9           7           7          20          19          60
