@@ -1,7 +1,0 @@
-APK: ddaa1d7ef016ea2009267dfcfffe13129033e80c6a0bb38f6f1fc235cb96a237.apk
-Package: com.I16.uRqsI0mr
-Granted Permissions:
-android.permission.ACCESS_NETWORK_STATE: granted=true
-com.I16.uRqsI0mr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
-android.permission.QUERY_ALL_PACKAGES: granted=true
-android.permission.OTHER_SENSORS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
