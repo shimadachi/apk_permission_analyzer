@@ -58,7 +58,7 @@ class MalwareAnalyzer:
                 perm = line.split()[-1]
                 self.run_adb_shell(["pm", "grant", package_name, perm])
 
-    def get_granted_permissions(self, package_name):
+    def get_syscalls(self, package_name):
         output = self.run_adb_shell(["dumpsys", "package", package_name])
         # granted = [line.strip() for line in output.splitlines() if "granted=true" in line]
         # return granted
@@ -101,14 +101,16 @@ class MalwareAnalyzer:
 
             self.grant_all_permissions(package_name)
 
-            granted_perms = self.get_granted_permissions(package_name)
+            sys_dump = self.get_syscalls(package_name)
 
             log_filename = f"logs/{self.formatted_time()}_{apk}.txt"
             os.makedirs("logs", exist_ok=True)
             with open(log_filename, "w") as log_file:
                 log_file.write(f"APK: {apk}\n")
                 log_file.write(f"Package: {package_name}\n")
-                log_file.write(granted_perms)
+                log_file.write(sys_dump)
+
+
                 # log_file.write("Granted Permissions:\n")
                 # log_file.writelines([perm + "\n" for perm in granted_perms])
 
