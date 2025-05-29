@@ -60,8 +60,9 @@ class MalwareAnalyzer:
 
     def get_granted_permissions(self, package_name):
         output = self.run_adb_shell(["dumpsys", "package", package_name])
-        granted = [line.strip() for line in output.splitlines() if "granted=true" in line]
-        return granted
+        # granted = [line.strip() for line in output.splitlines() if "granted=true" in line]
+        # return granted
+        return output
 
     def reset_snapshot(self):
         conn = libvirt.open("qemu:///system")
@@ -107,8 +108,9 @@ class MalwareAnalyzer:
             with open(log_filename, "w") as log_file:
                 log_file.write(f"APK: {apk}\n")
                 log_file.write(f"Package: {package_name}\n")
-                log_file.write("Granted Permissions:\n")
-                log_file.writelines([perm + "\n" for perm in granted_perms])
+                log_file.write(granted_perms)
+                # log_file.write("Granted Permissions:\n")
+                # log_file.writelines([perm + "\n" for perm in granted_perms])
 
             print(f"[✓] Finished {apk}, results saved to {log_filename}\n")
 
@@ -117,7 +119,7 @@ if __name__ == "__main__":
     analyzer = MalwareAnalyzer(
         ip="192.168.122.232",
         port=5555,
-        apk_dir="viruses",
+        apk_dir="../viruses",
         snapshot_name="safe_snapshot",
     )
     analyzer.analyze_apks()
