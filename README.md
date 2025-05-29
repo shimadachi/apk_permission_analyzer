@@ -1,6 +1,6 @@
 # 🛡️ Android Malware Analyzer
 
-Bu proje, Android APK dosyalarını sanal bir cihazda (örneğin: `android-x86`) çalıştırarak analiz eden otomatik bir araçtır. Her APK yüklemesinden önce snapshot'a dönülerek temiz bir analiz ortamı sağlanır. APK yüklemesi sonrası yeni kurulan paket tespit edilir, gerekli izinler verilir ve verilen izinlerin log dosyasına kaydı yapılır.
+Bu proje, Android APK dosyalarını sanal bir cihazda (örneğin: `BlissOS`) çalıştırarak analiz eden otomatik bir araçtır. Her APK yüklemesinden önce snapshot'a dönülerek temiz bir analiz ortamı sağlanır. APK yüklemesi sonrası yeni kurulan paket tespit edilir, gerekli izinler verilir ve verilen izinlerin log dosyasına kaydı yapılır.
 
 ## 📂 Özellikler
 
@@ -58,7 +58,7 @@ Log dosyası örneği:
 ```
 APK: virus_sample.apk
 Package: com.malware.sample
-<dumpsys çıktısı burada yer alır>
+paketin <dumpsys çıktısı burada yer alır>
 ```
 
 ## ⚠️ Uyarılar
@@ -67,6 +67,3 @@ Package: com.malware.sample
 - Test ettiğiniz APK dosyaları zararlı olabilir. Sanal makinenin ve ağın izole olduğundan emin olun.
 - `adb connect` kullanımı için sanal cihazın ADB bağlantısını kabul ettiğinden ve IP adresinin doğru olduğundan emin olun.
 
-## 📄 Lisans
-
-Bu proje eğitim ve analiz amaçlıdır. Geliştiriciler, bu kodun kötüye kullanımından sorumlu tutulamaz.
